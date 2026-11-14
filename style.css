@@ -73,11 +73,11 @@ h2 {
     border-radius: 50%;
     transition: .4s;
 }
-/*kur checkbox aktivizohet*/
+
 .switch input:checked + .slider {
     background-color: #7150dc;
 }
-/*levizja e rrethit kur aktivizohet*/
+
 .switch input:checked + .slider::before {
     transform: translate(18px);
 }
